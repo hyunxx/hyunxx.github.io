@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <main>
+        <section id="opening">
+            <h1>Hellow world!, hyuxx's blog.</h1>
+        </section>
+
+        <div class="section-container">
+            <header>
+                <a href="index.html"> hyunxx.seo's blog </a>
+                <div class="menu">
+                    <a href="#info" class="info"></a>
+                    <a href="" class="about"></a>
+                    <a href="" class="sns"></a>
+                </div>
+            </header>
+
+            <div class="content" id="info">
+                <div class="about-me">
+                    <img src="./img/hyunxx.jpeg" style="width: 200px; height: 200px; position: absolute; left: 30px; top: 30px;">
+                    <h2>서수현 / 01.05.23</h2>
+
+                    <p>
+                        단국대학교 소프트웨어 20학번 <br> 2년차 직장인 퍼블리셔 입니다 :)
+                    </p>
+                </div>
+            </div>
+            <div class="content">
+                관심사: 프론트엔드 (리액트), 워들, 고양이
+            </div>
+            <div class="content">
+                github 인스타그램
+            </div>
+        </div>
+    </main>
+
+    <script>
+        let opening = document.getElementById('opening');
+        console.log(opening);
+
+        setTimeout(function() {
+            opening.style.display = 'none';
+        }, 2700)
+    </script>
+</body>
+
+</html>
