@@ -1,0 +1,28 @@
+/* opening */
+
+.opening {
+    width: 100vh;
+    height: 100vh;
+    background: linear-gradient(45deg, Violet, Orange);
+    animation: fadeout 3s;
+    padding: 50% 0;
+}
+
+@keyframes fadeout {
+    /* 효과를 동작시간 동안 0 ~ 1까지 */
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.opening h1 {
+    text-align: center;
+    color: #fff;
+    margin-top: -1.5em;
+}
